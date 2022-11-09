@@ -1,4 +1,7 @@
-function thingsToDo(gym) {
-    console.log('going to ' + ' gym');
+/*clock*/
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  const date = new Date();
+document.getElementById("clock").innerHTML = date.toLocaleTimeString();
 }
-thingsToDo()
