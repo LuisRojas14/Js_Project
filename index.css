@@ -213,5 +213,6 @@ body{
   }
 }
 #clock{
-  
+  position:fixed;
+    
 }
