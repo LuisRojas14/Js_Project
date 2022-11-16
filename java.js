@@ -5,3 +5,5 @@ function myTimer() {
   const date = new Date();
 document.getElementById("clock").innerHTML = date.toLocaleTimeString();
 }
+
+
